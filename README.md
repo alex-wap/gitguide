@@ -40,11 +40,11 @@ Note: I recommend installing Homebrew if you’re using macOS. [Link](http://bre
 	* If you experience conflicts at this stage, **stop and review the conflicts**.
 4. Push your changes to your **GitHub master branch**. `git push origin master`
 5. Go to **your** GitHub repo and select the master branch.
-	*![Branch button](https://github.com/alex-wap/gitguide/blob/master/branch.png)
+	* ![Branch button](https://github.com/alex-wap/gitguide/blob/master/branch.png)
 6. Click the button for **New pull request** (to the right of the branch selection).
-	*![PR button](https://github.com/alex-wap/gitguide/blob/master/pr.png)
+	* ![PR button](https://github.com/alex-wap/gitguide/blob/master/pr.png)
 7. You will be shown two branches to compare. If it says "Able to merge" with a checkmark, you can click the create pull request button. If not, please wait to merge and discuss with your team. 
-	*![PR page](https://github.com/alex-wap/gitguide/blob/master/prpage.png)
+	* ![PR page](https://github.com/alex-wap/gitguide/blob/master/prpage.png)
 8. There will be a textbox and a subject line with your last commit message. Update the subject line to something relevant to feature you implemented. Leave detailed comments in the textbox if there are specific things you want to let the maintainer know.
 9. Click the Create pull request button.
-	*![Create PR](https://github.com/alex-wap/gitguide/blob/master/create.png)
+	* ![Create PR](https://github.com/alex-wap/gitguide/blob/master/create.png)
