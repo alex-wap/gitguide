@@ -5,7 +5,7 @@ Note: I recommend installing Homebrew if you’re using macOS. [Link](http://bre
 
 
 ## Initial Setup
-1. Fork repo (button, top right corner) ADD IMAGE
+1. Fork repo (button, top right corner) ![Fork button](/images/fork.png)
 2. Clone your fork locally terminal: `git clone https://github.com/YOUR_USERNAME/YPC-scrum.git`
 3. CD into directory `cd YPC-scrum`
 4. Check existing branches `git branch -v`
