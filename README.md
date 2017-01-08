@@ -25,8 +25,6 @@ Note: I recommend installing Homebrew if you’re using macOS. [Link](http://bre
 
 ```bash
 origin https://github.com/user/repo.git (fetch) 
-
-
 origin https://github.com/user/repo.git (push)
 ```
 7. 
