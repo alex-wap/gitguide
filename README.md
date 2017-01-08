@@ -46,5 +46,6 @@ Note: I recommend installing Homebrew if you’re using macOS. [Link](http://bre
 7. You will be shown two branches to compare. If it says "Able to merge" with a checkmark, you can click the create pull request button. If not, please wait to merge and discuss with your team. 
 	* ![PR page](https://github.com/alex-wap/gitguide/blob/master/prpage.png)
 8. There will be a textbox and a subject line with your last commit message. Update the subject line to something relevant to feature you implemented. Leave detailed comments in the textbox if there are specific things you want to let the maintainer know.
+	* ![text box](https://github.com/alex-wap/gitguide/blob/master/text.png)
 9. Click the Create pull request button.
 	* ![Create PR](https://github.com/alex-wap/gitguide/blob/master/create.png)
