@@ -13,7 +13,7 @@ Note: I recommend installing Homebrew if you’re using macOS. [Link](http://bre
 5. Create a new branch for the feature you’re working on (try to be descriptive and include your name) 
 	* `git checkout -b alex-readme`
 6. Check the remote repo `git remote -v`. It should say 
-```bash
+	* ```bash
 origin https://github.com/user/repo.git (fetch) 
 origin https://github.com/user/repo.git (push)
 ```
