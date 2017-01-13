@@ -15,7 +15,7 @@ Note: I recommend installing Homebrew if you’re using macOS. [Link](http://bre
 	* `origin https://github.com/user/repo.git (fetch)`
 	* `origin https://github.com/user/repo.git (push)`
 7. Add the upstream repo (original repo) in terminal:
-	* `git remote add upstream https://github.com/ZakStrassberg/YPC-scrum`
+	* `git remote add upstream https://github.com/ZakStrassberg/YPC-scrum.git`
 	* If you get `fatal: remote origin already exists.`, troubleshoot [here](https://help.github.com/articles/adding-a-remote/).
 	* This will be used to pull from the master branch
 8. Check if the upstream was added correctly `git remote -v`
