@@ -5,7 +5,7 @@ Note: I recommend installing Homebrew if you’re using macOS. [Link](http://bre
 
 ## Video Demo
 
-[Git/GitHub Demo](https://youtu.be/XFJYzYeH00E)
+[Git/GitHub Demo on YouTube](https://youtu.be/XFJYzYeH00E)
 
 ## Initial Setup
 
