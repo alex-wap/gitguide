@@ -77,3 +77,4 @@ Note: I recommend installing Homebrew if you’re using macOS. [Link](http://bre
 6. `git push origin master` (get your changes on github)
 7. SSH into your instance `git pull` (from your instance, get your changes onto your instance)
 8. `git stash pop` (throws away the stash after applying it)
+9. The changes you made on the instance will merge with the updates you made locally.
