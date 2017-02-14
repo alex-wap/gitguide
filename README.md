@@ -68,3 +68,12 @@ Note: I recommend installing Homebrew if you’re using macOS. [Link](http://bre
 6. Switch back to your development branch and continue working `git checkout YOUR-BRANCH-NAME`
 
 
+## Save changes on the instance and pull local changes 
+1. SSH into your instance: update your files (such as settings.py with the IP address of your instance)
+2. `git stash`
+3. make changes locally on your computer
+4. `git add .`
+5. `git commit -m "COMMIT MSG"`
+6. `git push origin master` (get your changes on github)
+7. SSH into your instance `git pull` (from your instance, get your changes onto your instance)
+8. `git stash pop` (throws away the stash after applying it)
