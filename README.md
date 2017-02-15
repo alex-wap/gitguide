@@ -78,3 +78,19 @@ Note: I recommend installing Homebrew if you’re using macOS. [Link](http://bre
 7. SSH into your instance `git pull` (from your instance, get your changes onto your instance)
 8. `git stash pop` (throws away the stash after applying it)
 9. The changes you made on the instance will merge with the updates you made locally.
+
+## Using "me" instead of "upstream" for remote
+1. Fork repo (button, top right corner) 
+ 	* ![Fork button](https://github.com/alex-wap/gitguide/blob/master/fork.png)
+2. Clone **the main project** locally via the terminal (from the main owner's GitHub page): `git clone https://github.com/THEIR_USERNAME/YPC-scrum.git`
+3. CD into directory `cd YPC-scrum`
+4. Check existing branches `git branch -v`
+5. Check the remote repos `git remote -v`. It should say: 
+	* `origin https://github.com/THEIR_USERNAME/repo.git (fetch)`
+	* `origin https://github.com/THEIR_USERNAME/repo.git (push)`
+7. Add your github repo as "me" in terminal:
+	* `git remote add me https://github.com/YOUR_USERNAME/YPC-scrum.git`
+8. Check if me was added correctly `git remote -v`
+9. Now the syntax is different:
+	* To update **your GitHub repo**: `git push me`
+	* To pull an **update from the main repo**: `git pull`
