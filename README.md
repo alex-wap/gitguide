@@ -71,13 +71,14 @@ Note: I recommend installing Homebrew if you’re using macOS. [Link](http://bre
 ## Save changes on the instance and pull local changes 
 1. SSH into your instance: update your files (such as settings.py with the IP address of your instance)
 2. `git stash`
-3. make changes locally on your computer
-4. `git add .`
-5. `git commit -m "COMMIT MSG"`
-6. `git push origin master` (get your changes on github)
-7. SSH into your instance `git pull` (from your instance, get your changes onto your instance)
-8. `git stash pop` (throws away the stash after applying it)
-9. The changes you made on the instance will merge with the updates you made locally.
+3. Switch to your terminal window for your computer.
+4. make changes locally on your computer
+5. `git add .`
+6. `git commit -m "COMMIT MSG"`
+7. `git push origin master` (get your changes on github)
+8. SSH into your instance: `git pull` (from your instance, get your changes onto your instance)
+9. `git stash pop` (throws away the stash after applying it)
+10. The changes you made on the instance will merge with the updates you made locally.
 
 ## Using "me" instead of "upstream" for remote
 1. Fork repo (button, top right corner) 
