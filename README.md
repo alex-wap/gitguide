@@ -90,7 +90,7 @@ Note: I recommend installing Homebrew if you’re using macOS. [Link](http://bre
 	* `origin https://github.com/THEIR_USERNAME/repo.git (push)`
 7. Add your github repo as "me" in terminal:
 	* `git remote add me https://github.com/YOUR_USERNAME/YPC-scrum.git`
-8. Check if me was added correctly `git remote -v`
+8. Check if "me" was added correctly `git remote -v`
 9. Now the syntax is different:
 	* To update **your GitHub repo**: `git push me`
 	* To pull an **update from the main repo**: `git pull`
